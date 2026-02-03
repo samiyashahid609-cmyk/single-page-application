@@ -23,7 +23,7 @@ function Navbar() {
     <nav class="md:ml-auto md:mr-auto flex items-center gap-10 text-base">
       <Link to="/" class="text-white hover:text-purple-400 transition cursor-pointer">Home</Link>
       <Link to="/about" class="text-white hover:text-purple-400 transition cursor-pointer">About</Link>
-      <Link to="/projects" class="text-white hover:text-purple-400 transition cursor-pointer">Projects</Link>
+    
       <Link to="/contact" class="text-white hover:text-purple-400 transition cursor-pointer">Contact</Link>
     </nav>
 
