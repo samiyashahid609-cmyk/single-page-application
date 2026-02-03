@@ -4,7 +4,7 @@ import Footer from './components/shared/footer'
 
 import Home from './pages/home'
 import About from './pages/About'
-import Projects from './pages/Projects'
+
 import ContactForm from './pages/Contact'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
@@ -15,7 +15,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
-      <Route path="/projects" element={<Projects/>}/>
+      
       <Route path="/contact" element={<ContactForm/>}/>
       </Routes>
       <Footer/>
